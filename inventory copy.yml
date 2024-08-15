@@ -1,10 +1,11 @@
 ---
 all:
     hosts:
-        ИмяСервера1:
-            ansible_host: IP_Адрес
-            ansible_user: Пользователь
+        highfalutin-horses:
+            ansible_host: 91.103.140.164
+            ansible_user: root
             # SSH порт
             ansible_port: 22
             # Для этого устанавливали sshpass
-            ansible_ssh_pass: Пароль
+            ansible_ssh_pass: Hv5GkAduZ4cF
+        
